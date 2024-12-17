@@ -1,0 +1,83 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+    text-align: center;
+  }
+  
+  header {
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #scraper-section {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  #url-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #language-select {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  #extract-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #extract-btn:hover {
+    background: #0056b3;
+  }
+  
+  #results-section {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  #results {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: auto;
+    max-height: 400px;
+  }
+  
+  
